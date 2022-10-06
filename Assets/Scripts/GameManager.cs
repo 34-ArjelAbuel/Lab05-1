@@ -26,11 +26,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        timer = Mathf.Round(timer * 100.0f) * 0.01f;
     }
     public void AddCoin()
     {
-        coinCount++;
+        coinCount+= 10;
         coinText.text = "Coins Collected: " + coinCount;
     }
     public void CheckWinCondition()
@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
     }
     public void Timer()
     {
-        timer -= 1 * Time.deltaTime;
+        timer -= Time.deltaTime;
         timeText.text = "Time Left: " + timer;
     }
     public void TimeLose()
