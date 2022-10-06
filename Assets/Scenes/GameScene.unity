@@ -219,7 +219,7 @@ MonoBehaviour:
   coinText: {fileID: 670507412}
   totalCoin: 6
   timeText: {fileID: 548496269}
-  timer: 5
+  timer: 60
 --- !u!4 &91932389
 Transform:
   m_ObjectHideFlags: 0
@@ -1793,7 +1793,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coins Collected: '
+  m_Text: 'Coins Collected: 0'
 --- !u!222 &670507413
 CanvasRenderer:
   m_ObjectHideFlags: 0

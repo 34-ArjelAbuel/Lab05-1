@@ -28,5 +28,6 @@ public class PlayerScript : MonoBehaviour
         {
             GameManager.instance.LoseGame();
         }
+        
     }
 }
