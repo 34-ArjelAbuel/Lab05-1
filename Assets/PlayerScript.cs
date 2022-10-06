@@ -22,7 +22,7 @@ public class PlayerScript : MonoBehaviour
         if (other.gameObject.tag == "Coin")
         {
             GameManager.instance.AddCoin();
-            Destroy(other.gameObject);
+            Destroy(other.gameObject, 1f);
         }
         if (other.gameObject.layer == 4)
         {
